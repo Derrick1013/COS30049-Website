@@ -11,13 +11,13 @@ const PredictionPage: React.FC = () => {
 
             <Paper sx={{ p: 4 }}>
                 <Grid container spacing={3}>
-                    {/* CORRECTED: Replaced `item xs={12}` with `size={12}` */}
+                    {}
                     <Grid size={12}>
                         <Typography variant="h6" gutterBottom>Location</Typography>
                         <TextField fullWidth label="Enter location (e.g., city, region)" variant="outlined" />
                     </Grid>
 
-                    {/* CORRECTED: Replaced `item xs={12} sm={6}` with `size={{ xs: 12, sm: 6 }}` */}
+                    {}
                     <Grid size={{ xs: 12, sm: 6 }}>
                         <Typography variant="h6" gutterBottom>Pollutants</Typography>
                         <FormControl fullWidth>
@@ -29,7 +29,7 @@ const PredictionPage: React.FC = () => {
                             </Select>
                         </FormControl>
                     </Grid>
-                    {/* CORRECTED: Replaced `item xs={12} sm={6}` with `size={{ xs: 12, sm: 6 }}` */}
+                    {}
                     <Grid size={{ xs: 12, sm: 6 }}>
                         <Typography variant="h6" gutterBottom sx={{color: 'transparent', display: {xs: 'none', sm: 'block'}}}>Source</Typography>
                          <FormControl fullWidth>
@@ -42,18 +42,18 @@ const PredictionPage: React.FC = () => {
                         </FormControl>
                     </Grid>
 
-                     {/* CORRECTED: Replaced `item xs={12} sm={6}` with `size={{ xs: 12, sm: 6 }}` */}
+                     {}
                      <Grid size={{ xs: 12, sm: 6 }}>
                         <Typography variant="h6" gutterBottom>Timeframe</Typography>
                         <TextField fullWidth type="date" label="Start Date" InputLabelProps={{ shrink: true }} />
                     </Grid>
-                     {/* CORRECTED: Replaced `item xs={12} sm={6}` with `size={{ xs: 12, sm: 6 }}` */}
+                     {}
                      <Grid size={{ xs: 12, sm: 6 }}>
                         <Typography variant="h6" gutterBottom sx={{color: 'transparent', display: {xs: 'none', sm: 'block'}}}>End Date</Typography>
                         <TextField fullWidth type="date" label="End Date" InputLabelProps={{ shrink: true }} />
                     </Grid>
 
-                    {/* CORRECTED: Replaced `item xs={12}` with `size={12}` */}
+                    {}
                     <Grid size={12}>
                          <Typography variant="h6" gutterBottom>Additional Parameters</Typography>
                         <FormControl fullWidth>
@@ -65,12 +65,12 @@ const PredictionPage: React.FC = () => {
                             </Select>
                         </FormControl>
                     </Grid>
-                     {/* CORRECTED: Replaced `item xs={12}` with `size={12}` */}
+                     {}
                      <Grid size={12}>
                          <TextField fullWidth type="number" label="Population Density" variant="outlined" />
                     </Grid>
 
-                    {/* CORRECTED: Replaced `item xs={12}` with `size={12}` */}
+                    {}
                     <Grid size={12} sx={{ display: 'flex', justifyContent: 'flex-end' }}>
                         <Button variant="contained" size="large">Generate Forecast</Button>
                     </Grid>

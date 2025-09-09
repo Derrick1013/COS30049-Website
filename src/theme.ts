@@ -1,26 +1,26 @@
 import { createTheme } from '@mui/material/styles';
 
-// Define a professional color palette inspired by the mockups
+
 const theme = createTheme({
   palette: {
     mode: 'light',
     primary: {
-      main: '#007BFF', // A clean, modern blue
+      main: '#007BFF', 
     },
     secondary: {
-      main: '#6c757d', // A neutral grey for secondary text/elements
+      main: '#6c757d', 
     },
     background: {
-      default: '#F8F9FA', // A very light grey for the page background
-      paper: '#FFFFFF',   // White for cards and surfaces
+      default: '#F8F9FA', 
+      paper: '#FFFFFF',   
     },
     text: {
-      primary: '#212529',   // Dark grey for primary text for better readability
-      secondary: '#6c757d', // Lighter grey for secondary text
+      primary: '#212529',   
+      secondary: '#6c757d', 
     },
   },
   typography: {
-    fontFamily: 'Inter, sans-serif', // A modern, clean font
+    fontFamily: 'Inter, sans-serif', 
     h4: {
       fontWeight: 700,
       color: '#212529',
@@ -38,7 +38,7 @@ const theme = createTheme({
     },
   },
   shape: {
-    borderRadius: 8, // Slightly rounded corners for a modern feel
+    borderRadius: 8, 
   },
   components: {
     MuiAppBar: {
@@ -46,14 +46,14 @@ const theme = createTheme({
         root: {
           backgroundColor: '#FFFFFF',
           color: '#212529',
-          boxShadow: '0 1px 3px rgba(0,0,0,0.1)', // Subtle shadow
+          boxShadow: '0 1px 3px rgba(0,0,0,0.1)', 
         },
       },
     },
     MuiButton: {
       styleOverrides: {
         root: {
-          textTransform: 'none', // More readable button text
+          textTransform: 'none', 
           borderRadius: 8,
           fontWeight: 600,
         },
@@ -68,7 +68,7 @@ const theme = createTheme({
     MuiPaper: {
       styleOverrides: {
         root: {
-          boxShadow: '0 4px 12px rgba(0,0,0,0.08)', // A soft, modern shadow for cards
+          boxShadow: '0 4px 12px rgba(0,0,0,0.08)', 
           border: '1px solid #E9ECEF',
         },
       },

@@ -26,7 +26,7 @@ const HealthInfoPage: React.FC = () => {
             <Typography variant="h5" gutterBottom sx={{ mb: 3 }}>Understanding Pollutant Health Impacts</Typography>
             <Grid container spacing={4}>
                 {pollutants.map((item, index) => (
-                    // CORRECTED: Replaced `item xs={12}` with `size={12}`
+                    
                     <Grid size={12} key={index}>
                         <Paper sx={{ display: 'flex', alignItems: 'center', p: 2, gap: 3 }}>
                             <Box sx={{ flex: 1 }}>
@@ -44,7 +44,7 @@ const HealthInfoPage: React.FC = () => {
             <Typography variant="h5" gutterBottom sx={{ mt: 6, mb: 3 }}>Prevention and Protection</Typography>
             <Grid container spacing={4}>
                 {protection.map((item, index) => (
-                     // CORRECTED: Replaced `item xs={12}` with `size={12}`
+                     
                      <Grid size={12} key={index}>
                         <Paper sx={{ display: 'flex', alignItems: 'center', p: 2, gap: 3 }}>
                             <Box sx={{ flex: 1 }}>

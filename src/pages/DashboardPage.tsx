@@ -2,7 +2,7 @@ import React from 'react';
 import { Container, Typography, Box, Paper, TextField, Tabs, Tab, LinearProgress } from '@mui/material';
 import { LineChart, Line, XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContainer } from 'recharts';
 
-// Dummy data for charts
+
 const tempData = [
   { name: 'Mon', temp: 22 }, { name: 'Tue', temp: 24 }, { name: 'Wed', temp: 23 }, { name: 'Thu', temp: 25 }, { name: 'Fri', temp: 27 }, { name: 'Sat', temp: 28 }, { name: 'Sun', temp: 26 },
 ];
@@ -71,7 +71,7 @@ const DashboardPage: React.FC = () => {
         <LinearProgress variant="determinate" value={75} sx={{ height: 10, borderRadius: 5, mb: 1 }} />
          <Typography variant="caption" color="text.secondary">High</Typography>
         <Box sx={{ mt: 2, height: 400, borderRadius: 1, overflow: 'hidden' }}>
-            {/* Replace with a real map component like Mapbox or Google Maps for a real project */}
+            {}
             <img src="https://i.imgur.com/3Z6SfqF.png" alt="Map of San Francisco" style={{ width: '100%', height: '100%', objectFit: 'cover' }} />
         </Box>
          <Typography variant="caption" color="text.secondary" sx={{ mt: 1, display: 'block' }}>
